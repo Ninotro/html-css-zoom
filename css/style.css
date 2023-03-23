@@ -1,0 +1,77 @@
+/* regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* header */
+
+body {
+    background-color: black;
+}
+
+header {
+    
+    height: 15vh;
+    color: white;
+    position: relative;
+    
+}
+
+#icons-header {
+    height: 3vh;
+    font-size: 2vh;
+    position: absolute;
+    top:1vh;
+    right: 1vh;
+
+    
+    
+}
+
+#icons-header span {
+    background-color: grey;
+    padding: 1vh 2vh;
+    border-radius: 3px;
+            
+}
+
+/* Main part */
+
+.container {
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.item {
+    width: calc(100%/7);
+    height: 50px;
+    background-image: url(https://picsum.photos/200/100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    position: relative;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.name {
+    color:white;
+    font-size: 6px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom:0;
+    left: 0;
+    
+}
